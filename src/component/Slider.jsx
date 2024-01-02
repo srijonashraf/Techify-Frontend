@@ -9,7 +9,7 @@ import {
 
 const items = [
   {
-    src: "https://picsum.photos/id/677/1200/400",
+    src: "https://picsum.photos/id/756/1200/400",
     altText: "Slide 1",
     caption: "Slide 1",
     key: 1,

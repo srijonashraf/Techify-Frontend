@@ -8,7 +8,7 @@ const Banner = () => {
                 {/* Left Part */}
                 <div className="col-md-6">
                     <div className="position-relative" style={{height: '100%'}}>
-                        <img src="/src/assets/images/3.webp" alt=""
+                        <img src="https://i.postimg.cc/FRLfNKD8/3.webp" alt=""
                              style={{height: '100%', width: '100%', objectFit: 'cover'}}/>
                         <div className="position-absolute add-pos ps-5 d-flex flex-column">
                             <h1 className="title">
@@ -30,7 +30,7 @@ const Banner = () => {
                         {/* First Half */}
                         <div className="col-md-12 mb-3">
                             <div className="position-relative" style={{height: '100%'}}>
-                                <img src="/src/assets/images/4.webp" alt=""
+                                <img src="https://i.postimg.cc/bvdDVgbz/4.webp" alt=""
                                      style={{height: '100%', width: '100%', objectFit: 'cover'}}/>
                                 <div className="position-absolute add-pos ps-5 d-flex flex-column">
                                     <h1 className="title">Headphones</h1>
@@ -47,7 +47,7 @@ const Banner = () => {
                         {/* Second Half */}
                         <div className="col-md-12">
                             <div className="position-relative" style={{height: '100%'}}>
-                                <img src="/src/assets/images/5.webp" alt=""
+                                <img src="https://i.postimg.cc/kgTRyz21/5.webp" alt=""
                                      style={{height: '100%', width: '100%', objectFit: 'cover'}}/>
                                 <div className="position-absolute add-pos ps-5 d-flex flex-column">
                                     <h1 className="title">Smartphone</h1>
