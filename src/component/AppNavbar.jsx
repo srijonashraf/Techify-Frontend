@@ -59,7 +59,7 @@ const AppNavbar = () => {
                         <Link to="#">Related Shop Pages</Link>
                       </li>
                       <li>
-                        <Link to="#">Account Page</Link>
+                        <Link to="/registration">Account Page</Link>
                       </li>
                       <li>
                         <Link to="#">Login & Register Page</Link>
@@ -176,7 +176,7 @@ const AppNavbar = () => {
                 </ul>
               </li>
               <li>
-                <Link to="#">Blog </Link>
+                <Link to="/blog">Blog </Link>
               </li>
               <li>
                 <Link to="contact">Contact</Link>
