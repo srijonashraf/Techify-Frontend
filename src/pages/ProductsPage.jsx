@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Products = () => {
+const ProductsPage = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     (async () => {
@@ -30,4 +30,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsPage;

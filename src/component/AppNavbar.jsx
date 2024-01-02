@@ -31,7 +31,7 @@ const AppNavbar = () => {
                         <Link to="#">Order Tracking</Link>
                       </li>
                       <li>
-                        <Link to="#">Faq Page</Link>
+                        <Link to="/faq">Faq Page</Link>
                       </li>
                       <li>
                         <Link to="#">Coming Soon Page</Link>
@@ -62,13 +62,16 @@ const AppNavbar = () => {
                         <Link to="/registration">Account Page</Link>
                       </li>
                       <li>
-                        <Link to="#">Login & Register Page</Link>
+                        <Link to="/registration">Login & Register Page</Link>
                       </li>
                       <li>
                         <Link to="#">Empty Cart Page</Link>
                       </li>
                       <li>
-                        <Link to="ThankYouPage">Thank You Page</Link>
+                        <Link to="/thanks">Thank You Page</Link>
+                      </li>
+                      <li>
+                        <Link to="/review">Review Page</Link>
                       </li>
                     </ul>
                   </li>

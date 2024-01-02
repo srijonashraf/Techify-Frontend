@@ -1,9 +1,10 @@
 import React from "react";
+import Search from "../component/Search.jsx";
 
 const SearchResultsPage = () => {
   return (
     <div>
-      <h1>Your searches product</h1>
+     <Search/>
     </div>
   );
 };

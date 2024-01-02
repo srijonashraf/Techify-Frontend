@@ -1,7 +1,7 @@
 import React from 'react';
 import Policy from "../component/Policy.jsx";
 
-const PrivacyPolicyAndTermsOfUse = () => {
+const PrivacyPolicyAndTermsOfUsePage = () => {
     return (
         <div>
             <Policy/>
@@ -9,4 +9,4 @@ const PrivacyPolicyAndTermsOfUse = () => {
     );
 };
 
-export default PrivacyPolicyAndTermsOfUse;
+export default PrivacyPolicyAndTermsOfUsePage;

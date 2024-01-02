@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 
-const Contacts = () => {
+const ContactsPage = () => {
   return (
     <div className="container w-50">
-      <h1>Send A Quest</h1>
+      <h3 className="text-center">Contact with us!</h3>
       <Form>
         <Row>
           <Col md={6}>
@@ -42,7 +42,7 @@ const Contacts = () => {
         </FormGroup>
 
         <div className="text-center">
-          <button type="button" className="fs-4 px-3 btn btn-primary">
+          <button type="button" className="rounded-1 px-3 btn btn-primary">
             Send Message
           </button>
         </div>
@@ -51,4 +51,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default ContactsPage;

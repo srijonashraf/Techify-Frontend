@@ -1,9 +1,10 @@
 import React from "react";
+import Thanks from "../component/Thanks.jsx";
 
 const ThankYouPage = () => {
   return (
     <div className="container">
-      <h1 className="text-center my-title">Thank you for shopping</h1>
+    <Thanks/>
     </div>
   );
 };

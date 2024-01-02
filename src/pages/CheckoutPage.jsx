@@ -4,7 +4,7 @@ import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 const CheckoutPage = () => {
   return (
     <div className="container">
-      <h1 className="text-center my-title">CheckOut</h1>
+      <h1 className="text-center ">Checkout</h1>
       <div className="row">
         <div className="col-md-7">
           <h3>Billing Details</h3>
@@ -121,7 +121,7 @@ const CheckoutPage = () => {
               Store Town, Store State / County, Store Postcode.
             </p>
           </div>
-          <button className="btn btn-primary text-white py-3 mt-2 w-100">
+          <button className="btn btn-primary text-white py-3 mt-2 rounded-1 w-100">
             PLACE ORDER
           </button>
         </div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Table } from "reactstrap";
 
-const Cart = () => {
+const CartPage = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     (async () => {
@@ -53,4 +53,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartPage;

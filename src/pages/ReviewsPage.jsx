@@ -1,11 +1,12 @@
 import React from "react";
+import Review from "../component/Review.jsx";
 
-const Reviews = () => {
+const ReviewsPage = () => {
   return (
     <div>
-      <h1>Our review section</h1>
+     <Review/>
     </div>
   );
 };
 
-export default Reviews;
+export default ReviewsPage;

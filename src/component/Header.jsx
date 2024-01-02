@@ -1,8 +1,25 @@
-import React from "react";
-import {Link} from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import AppNavbar from "./AppNavbar.jsx";
+import Search from "../component/Search.jsx";
 
 const Header = () => {
+    const [searchTerm, setSearchTerm] = useState("");
+    const [showSearchResults, setShowSearchResults] = useState(false);
+    const navigate = useNavigate();
+
+    const handleSearch = (e) => {
+        setSearchTerm(e.target.value);
+    };
+
+    useEffect(() => {
+        if (searchTerm.trim() !== "") {
+            setShowSearchResults(true);
+        } else {
+            setShowSearchResults(false);
+        }
+    }, [searchTerm]);
+
     return (
         <div className="main-wrapper">
             <header>
@@ -50,9 +67,14 @@ const Header = () => {
                             </div>
                             <div className="col-lg-6 d-none d-lg-block">
                                 <div className="search-element text-center rounded-1">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search"/>
-                                        <button type="submit" className="btn rounded-1">
+                                    <form>
+                                        <input
+                                            type="text"
+                                            placeholder="Search"
+                                            value={searchTerm}
+                                            onChange={handleSearch}
+                                        />
+                                        <button type="button" className="btn rounded-1 border-0">
                                             <i className="fa-solid fa-magnifying-glass text-white"></i>
                                         </button>
                                     </form>
@@ -84,7 +106,9 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <AppNavbar/>
+                <AppNavbar />
+                {/* Conditionally render SearchResults component */}
+                {showSearchResults && <Search term={searchTerm} />}
             </header>
         </div>
     );
