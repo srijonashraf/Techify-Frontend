@@ -1,10 +1,10 @@
 import React from "react";
-import Blog from './Blog';
+import Blogs from './../component/Blogs';
 
 const Blog = () => {
   return (
     <div>
-      <Blog />
+      <Blogs />
     </div>
   );
 };
